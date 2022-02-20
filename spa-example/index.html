@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+
+        <title>SPA Template</title>
+    
+        <link rel="shortcut icon" href="./assets/images/favicon.png">
+
+        <link rel="stylesheet" href="./assets/css/bootstrap.css">
+
+        <link rel="stylesheet" href="./assets/css/all.css">
+
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+        <script  type="module" src="./assets/js/app.js"></script>
+
+    </head>
+    <body>
+       
+        <div class="container my-5">
+
+            <h1>NBU Rates App</h1>
+
+            <div class='text-right d-flex'>
+                <input id='search' class='me-auto' type="text" placeholder="Search...">
+
+                <span class='mx-4 d-flex align-items-center'>
+                    <label for='sort-up'>Price Up</label>
+                    <input id='sort-up' class='mx-2' type="radio" value='up' name='sort'>
+                </span>
+
+                <span class='mx-4 d-flex align-items-center'>
+                    <label for='sort-down'>Price Down</label>
+                    <input id='sort-down' class='mx-2' type="radio" value='down' name='sort'>
+                </span>
+            </div>
+
+            <table class="table mt-4">
+                <thead>
+                  <tr>
+                    <th scope="col">
+                        Code
+                       
+                    </th>
+                    <th scope="col">
+                        Title
+                      
+                    </th>
+                 
+                    <th scope="col">Rate 
+                       
+                    </th>
+                    <th>Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+
+                    <!-- One Item -->
+                    <tr>
+                        <th>AUD</th>
+                        <td>Австралійський долар</td>
+                        <td>20.7848 грн.</td>
+                        <td>10.07.2021</td>
+                    </tr>
+                    <!-- End Of One Item -->
+
+                </tbody>
+              </table>
+
+        </div>
+        
+    </body>
+</html>
